@@ -1,0 +1,22 @@
+#--------------------#
+
+# Patterns to ignore #
+
+#--------------------#
+
+*pycache*
+*pyc*
+.coverage
+.vscode/
+.pytest_cache/
+.eggs/
+.env
+*.egg-info/
+output/
+tmp/
+venv/
+output*
+csv/
+test*
+chromedriver*
+.DS_Store

@@ -1,0 +1,37 @@
+{"level":30,"time":"2023-04-21T10:46:52.757Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Listening on 50362"}
+{"level":30,"time":"2023-04-21T10:46:53.314Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-04-21T10:46:54.611Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-04-21T10:46:54.618Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-04-21T10:46:54.619Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-04-21T10:46:54.620Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Trace file: "}
+{"level":30,"time":"2023-04-21T10:46:54.672Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Changed active context"}
+{"level":30,"time":"2023-04-21T10:46:54.673Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method newContext"}
+{"level":30,"time":"2023-04-21T10:47:04.691Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-04-21T10:47:04.692Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-04-21T10:47:05.357Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Video path: undefined"}
+{"level":30,"time":"2023-04-21T10:47:05.358Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Changed active page"}
+{"level":30,"time":"2023-04-21T10:47:09.427Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method newPage"}
+{"level":30,"time":"2023-04-21T10:47:09.446Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //input[@id=\"username\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:09.445Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-04-21T10:47:09.595Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method fillText"}
+{"level":30,"time":"2023-04-21T10:47:12.605Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method click"}
+{"level":30,"time":"2023-04-21T10:47:12.606Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"login-submit\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:12.804Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method click"}
+{"level":30,"time":"2023-04-21T10:47:15.825Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method fillText"}
+{"level":30,"time":"2023-04-21T10:47:15.825Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"password\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:15.872Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method fillText"}
+{"level":30,"time":"2023-04-21T10:47:15.876Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method click"}
+{"level":30,"time":"2023-04-21T10:47:15.876Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"login-submit\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:15.987Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method click"}
+{"level":30,"time":"2023-04-21T10:47:35.999Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.000Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"download-backup-link-cloud\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:36.113Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.116Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.117Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"cloudBackupLocation\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:36.156Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.158Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.159Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Strict mode is enabled, find Locator with //*[@id=\"submit-cloud-new\"] in page."}
+{"level":30,"time":"2023-04-21T10:47:36.195Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method getElementStates"}
+{"level":30,"time":"2023-04-21T10:47:36.198Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-04-21T10:47:36.211Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"Removed page=f3ba7727-963b-4547-afa0-d6c7b2bb546e from context=f77f1c24-1cc1-4392-a874-a8fbfb29ea5c page stack"}
+{"level":30,"time":"2023-04-21T10:47:36.739Z","pid":9052,"hostname":"DESKTOP-KFR51TN","msg":"End of node method closeAllBrowsers"}
