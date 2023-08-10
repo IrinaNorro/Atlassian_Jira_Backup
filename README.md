@@ -1,40 +1,50 @@
-Robot Template
+Atlassian Jira Backup Robot
 ==============
+### What does this robot do?
+
+The main purpose of this process is to create backups of Siili Solutions internal Atlassian product site - Jira, in order to prevent data loss in case of system errors and similar events. A software robot generates the backups, downloads them, and transfers these packages to Siili's local directory, from where they can be restored to Atlassian more quickly when needed. 
+
+First the robot retrieves information of the webpages to be opened in Stage0. In the first round (Stage1), the robot signs in to web page, creates a zip-compressed file from the company's Jira environment and closes the webpage. In the second round (Stage2), it signs in again, downloads and stores the file in the company's local directory. The progression of the robot is presented in detail in the thesis, https://urn.fi/URN:NBN:fi:amk-2023060521436, starting from section 4.3.
 
 ### Project structure
 
-The project should adhere to the below folder structure. Folders should only contain files of the denoted type(s), following the naming conventions.
 
     .
     ├── libraries               # For implementing keywords that interact with target systems
-    │   ├── SystemALibrary.py
-    │   ├── SystemBLibrary.py
+    │   ├── ExcelLibrary.py
+    │   ├── JiraLibrary.py
+    │   ├── LibraryBase.py
     │   └── utils.py
-    |
-    ├── resources               # Configuration and other resources
+    ├── pipelines               # Declarative-style Jenkins pipelines
+    │   ├── Jenkinsfile
+    │   └── process.groovy
+    ├── resources    
+    │   ├── locators.py                 # Configuration and other resources
     │   ├── settings.py
     │   ├── settings_helpers.py
-    │   └── locators.py
+    │   └── templates.py
     ├── scripts                 # Batch/shell cripts for running setup, tests and the process
     │   └── start.(cmd|sh)
     ├── stages                  # Robot workflow split into stages
     │   ├── Stage0.py
-    │   └── StageN.py
+    │   ├── Stage1.py    
+    │   └── Stage2.py
     ├── tasks                   # Robot Framework workflows
     │   └── main.robot
     ├── tests                   # Unit tests
-    │   └── test.py
+    │   └── test_utils.py
+    ├── venv
+    ├── .env        
     ├── .gitignore
-    ├── .pylintrc
-    ├── .rflintargs
+    ├── playwright-log.txt
     ├── requirements.txt
     ├── requirements-dev.txt
     ├── requirements-tests.txt
     ├── run.py
     ├── setup.cfg
     ├── setup.py
+    ├── URLs.xlsx
     └── README.md
-
 
 ### Instructuons to connect to Slack
 
